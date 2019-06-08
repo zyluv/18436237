@@ -54,8 +54,7 @@ public class FriendList extends JFrame implements ActionListener,MouseListener{
 		
 		for(int i=0;i<count;i++)
 		{			
-			myFriendJLabel[i]=new JLabel(friendName[i]+"",new ImageIcon("images/dd3"
-					+ ".gif"),JLabel.LEFT);
+			myFriendJLabel[i]=new JLabel(friendName[i]+"",new ImageIcon("images/dd8.jpg"),JLabel.LEFT);
 //			myFriendJLabel[i].setEnabled(false);
 			myFriendJLabel[i].addMouseListener(this);
 		    myFriendListJPanel.add(myFriendJLabel[i]);
@@ -86,7 +85,7 @@ public class FriendList extends JFrame implements ActionListener,MouseListener{
 		myStrangerListJPanel=new JPanel(new GridLayout(A-1,1));
 		for(int i=1;i<A;i++)
 		{
-			myStrangerJLabel[i]=new JLabel(i+"",new ImageIcon("images/yy4.gif"),JLabel.LEFT);
+			myStrangerJLabel[i]=new JLabel(i+"",new ImageIcon("images/dd3.png"),JLabel.LEFT);
 			myStrangerJLabel[i].addMouseListener(this);		    
 			myStrangerListJPanel.add(myStrangerJLabel[i]);
 		}
